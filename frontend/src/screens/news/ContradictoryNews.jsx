@@ -99,7 +99,7 @@ function ContradictoryNews() {
                               onClick={() => {
                                 window.location.href = `/${item.id}`;
                               }}
-                              className="cursor-pointer py-3 px-4 border-b border-gray-200 dark:border-slate-700"
+                              className=" py-3 px-4 border-b hover:cursor-pointer hover:text-indigo-600 border-gray-200 dark:border-slate-700"
                             >
                               {item.article1_summary}
                             </td>
@@ -107,7 +107,7 @@ function ContradictoryNews() {
                               onClick={() => {
                                 window.location.href = `/${item.nextId}`;
                               }}
-                              className="cursor-pointer py-3 px-4 border-b border-gray-200 dark:border-slate-700"
+                              className=" hover:cursor-pointer hover:text-indigo-600 py-3 px-4 border-b border-gray-200 dark:border-slate-700"
                             >
                               {item.article2_summary}
                             </td>
