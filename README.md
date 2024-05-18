@@ -19,39 +19,22 @@ Ensure you have the following installed on your system:
     npm run dev
   ```
 
-The frontend uses Vite as a build tool.
 
 ### To set up the backend, follow these steps:
 
-    ```bash
+  ```bash
     cd backend
     npm install
     npm start
-    ```
+  ```
 
 ### For the AI component, follow these steps:
-
-1. Navigate to the `ai` directory:
-    ```bash
+   > For Linux, instead of `setup.bat` run `bash commands.sh`
+   ```bash
     cd ai
-    ```
-2. If you are using Linux, run:
-    ```bash
-    bash commands.sh
-    ```
-   If you are using Windows, run:
-    ```bash
     setup.bat
-    ```
-3. Run the main Python script:
-    ```bash
     python main.py
-    ```
-   or
-    ```bash
-    python3 main.py
-    ```
-
+   ```
 ### Common Issues
 
 - **Dependencies**: Make sure you have all the necessary dependencies installed. If you encounter any issues, check the `package.json` for frontend and backend, and `requirements.txt` for the AI component.
